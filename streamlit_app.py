@@ -11,5 +11,5 @@ streamlit.text('🥑🍞Avocado Toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import pandas 
-my_first_lisdt = pandas.read_csv("https://uni-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+my_first_list = pandas.read_csv("https://uni-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 streamlit.datafrme(my_first_list)
